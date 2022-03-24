@@ -1,0 +1,51 @@
+.cabecalho {
+    background: linear-gradient(90deg, #574AEB 0%, #3EA1DB 100%);
+}
+
+.input {
+    font-family: var(--inter);
+
+    width: 100%;
+    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+    border-radius: 5px;
+    border: none;
+
+    margin-bottom: 2rem;
+
+    box-sizing: border-box;
+
+    background-color: var(--branco-transparente);
+}
+
+input::placeholder {
+    color: var(--branco);
+    opacity: 0.5;
+}
+
+.input--icone {
+    background-image: url(../../assets/img/lupa.svg);
+}
+
+.input--lupa {
+    padding-left: 3.5rem;
+    background-repeat: no-repeat;
+    background-position: left 1rem center;
+}
+
+.cabecalho__texto {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho__titulos {
+    font-family: inherit;
+    font-size: 18px;
+    color: var(--branco);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+

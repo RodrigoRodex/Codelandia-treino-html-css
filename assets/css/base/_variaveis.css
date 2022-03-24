@@ -1,0 +1,14 @@
+:root {
+    --roxo: #574AEB;
+    --default-light: #3EA1DB;
+    
+    --branco: #FFFFFF;
+    --branco-transparente: #FFFFFF33;
+    --branco-200: #F9F9F9;
+
+    --cinza: #717171;
+    --cinza-dark: #1A202C;
+    
+    --lexend: 'Lexend Deca', sans-serif;
+    --inter: 'Inter', sans-serif;
+}

@@ -1,0 +1,12 @@
+@import url(../base/_reset.css);
+@import url(../base/_variaveis.css);
+
+.container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+body {
+    font-family: var(--lexend);
+    font-size: 14px;
+}
