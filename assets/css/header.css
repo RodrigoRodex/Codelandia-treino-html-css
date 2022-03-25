@@ -46,6 +46,10 @@ input::placeholder {
     color: var(--branco);
     margin-top: 2rem;
     margin-bottom: 2rem;
+    text-decoration: none;
+    transition: 1s all;
 }
 
-
+.cabecalho__titulos:hover {
+    transform: scale(1.1);
+}
