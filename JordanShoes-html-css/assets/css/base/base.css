@@ -1,0 +1,13 @@
+@import url(../base/_reset.css);
+@import url(../base/_variaveis.css);
+
+body {
+    font-weight: var(--font-texto);
+    font-family: var(--font);
+    background-color: var(--branco-200);
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
