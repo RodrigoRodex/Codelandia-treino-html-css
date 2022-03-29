@@ -2,12 +2,12 @@
     text-align: center;
 }
 
-.cartoes-div {
+.cartoes-imagem {
     box-sizing: border-box;
     background-color: var(--branco-200);
-    padding-left: 2rem;
+    padding-left: 2.5rem;
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
-    padding-right: 3.5rem;
+    padding-right: 2.5rem;
     margin-bottom: 1.5rem;
 }
