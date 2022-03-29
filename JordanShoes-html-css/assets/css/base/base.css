@@ -4,7 +4,7 @@
 body {
     font-weight: var(--font-texto);
     font-family: var(--font);
-    background-color: var(--branco-200);
+    color: var(--preto-ligth);
 }
 
 .container {

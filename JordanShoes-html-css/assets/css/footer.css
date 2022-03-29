@@ -1,8 +1,8 @@
-.cabecalho-promo {
+.footer {
     background-color: var(--preto-ligth);
+    color: var(--branco);
     font-weight: inherit;
     font-family: inherit;
-    color: var(--branco);
     padding: 1rem;
     text-align: center;
     font-size: 14px;

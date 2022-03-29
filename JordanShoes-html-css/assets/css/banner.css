@@ -1,0 +1,64 @@
+.banner {
+    display: flex;
+    flex-flow: column;
+}
+
+.banner-titulo {
+    font-weight: var(--font-titulo);
+    text-align: center;
+    font-size: 26px;
+    color: inherit;
+
+    padding: 1rem;
+}
+
+.cabecalho-banner {
+    width: 100%;
+}
+
+.texto {
+    position: absolute;
+    padding-top: 3.5rem;
+}
+
+.banner--titulo-texto {
+    color: var(--branco);
+    font-weight: var(--font-titulo-banner);
+    font-size: 24px;
+    padding-top: 6.6rem;
+    padding-bottom: 1rem;
+}
+
+.banner-texto {
+    font-weight: var(--font-titulo);
+    color: var(--branco);
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.banner-mobile {
+    filter: brightness(50%);
+}
+
+.banner-pc {
+    display: none;
+}
+
+@media screen and (min-width:1024px) {
+    .banner-mobile {
+        display: none;
+    }
+    
+    .banner-pc {
+        filter: brightness(50%);
+        display: inline;
+    }
+
+    .banner--titulo-texto-pc {
+        padding-left: 3.5rem;
+    }
+
+    .banner-texto-pc {
+        padding-left: 3.5rem;
+    }
+}
