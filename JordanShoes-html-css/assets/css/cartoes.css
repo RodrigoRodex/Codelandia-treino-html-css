@@ -1,13 +1,26 @@
-.cartoes {
-    text-align: center;
+.cartao__ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.cartoes-imagem {
-    box-sizing: border-box;
-    background-color: var(--branco-200);
+.cartao__li {
+    padding: 4rem;
     padding-left: 2.5rem;
-    padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
-    padding-right: 2.5rem;
+    background-color: var(--branco-200);
+    box-sizing: border-box;
+    width: 320px;
+
     margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width:1440px) {
+    .cartoes {
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+
+    .cartao__li {
+        margin-bottom: 2rem;
+    }
 }
